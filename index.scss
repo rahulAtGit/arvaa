@@ -7,20 +7,58 @@ body {
     font-size: 16px;
     font-family: "Rubik";
 
-    .container-fluid{
-      padding: 0;
-      margin: 0;
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    .button {
+        color: #000;
+        display: inline-block;
+        font-size: 0.875rem;
+        border-radius: 1.2375rem;
+        padding: 0.6rem 2.25rem;
+        background-color: rgb(241, 201, 132);
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
     }
     .banner {
         color: #ffffff;
         padding: 3rem 6.25rem;
-        background: url("./images/banner.jpg");
+        background: url("./images/banner.jpg") no-repeat;
+        background-size: cover;
+        .title {
+            text-align: center;
+            font-family: "awery";
+        }
         .navbar {
             margin: 3rem 0 12rem;
             height: 3.5rem;
             background-color: #272727;
             padding: 0.625rem;
             box-sizing: border-box;
+            p {
+                margin: 0;
+                span {
+                    font-size: 0.75rem;
+                    line-height: 1.75rem;
+                    vertical-align: middle;
+                }
+                img {
+                    margin-left: 1.5rem;
+                    padding: 0 0.75rem;
+                }
+            }
             .nav-item {
                 margin: 0 1.25rem;
                 .nav-link {
@@ -29,27 +67,6 @@ body {
                 }
             }
         }
-    }
-    .button {
-        color: #000;
-        display: inline-block;
-        font-size: 0.875rem;
-        border-radius: 1.2375rem;
-        padding: 0.8rem 2.25rem;
-        background-color: rgb(241, 201, 132);
-        text-decoration: none;
-    }
-    h1 {
-        font-size: 3rem;
-    }
-    h2{
-      font-size: 1.75rem;
-    }
-    h3 {
-        font-size: 1.5rem;
-    }
-    p {
-        font-size: 1rem;
     }
     .vision {
         padding: 3.5rem 11rem;
@@ -69,29 +86,29 @@ body {
         }
     }
 
-    .course{
-      background: url('./images/section_2_bg.jpg') no-repeat;
-      background-size: cover;
+    .course {
+        background: url('./images/section_2_bg.jpg') no-repeat;
+        background-size: cover;
 
-      .content{
-        margin-left: 50%;
-        color: #fff;
+        .content {
+            margin-left: 50%;
+            color: #fff;
 
-        .title{
-          margin-top: 6.25rem;
-          display: inline-block;
-          text-transform: uppercase;
-          border-bottom: solid 2px rgb(241, 201, 132);
+            .title {
+                margin-top: 6.25rem;
+                display: inline-block;
+                text-transform: uppercase;
+                border-bottom: solid 2px rgb(241, 201, 132);
+            }
+
+            .description {
+                font-size: 0.875rem;
+            }
+
+            .button {
+                margin: 2rem 0 4rem;
+            }
+
         }
-
-        .description{
-          font-size: 0.875rem;
-        }
-
-        .button{
-          margin: 2rem 0 4rem;
-        }
-
-      }
     }
 }

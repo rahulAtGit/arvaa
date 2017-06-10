@@ -5,5 +5,47 @@
 /* line 6, index.scss */
 body {
   font-size: 16px;
-  font-family: awery;
+}
+/* line 9, index.scss */
+body .banner {
+  color: #ffffff;
+  padding: 3rem 6.25rem;
+  background: url("./images/banner.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 14, index.scss */
+body .banner h4 {
+  text-align: center;
+}
+/* line 17, index.scss */
+body .banner .navbar {
+  margin: 3rem 0 12rem;
+  height: 3.5rem;
+  background-color: #272727;
+  padding: 0.625rem;
+  box-sizing: border-box;
+}
+/* line 23, index.scss */
+body .banner .navbar p {
+  font-size: 0.75rem;
+  margin: 0 1.375rem;
+  line-height: 1.75rem;
+  vertical-align: middle;
+}
+/* line 29, index.scss */
+body .banner .navbar .nav-item {
+  margin: 0 1.25rem;
+}
+/* line 31, index.scss */
+body .banner .navbar .nav-item .nav-link {
+  color: #f1c984;
+  font-size: 0.75rem;
+}
+/* line 39, index.scss */
+body .button {
+  color: #000;
+  font-size: 0.875rem;
+  border-radius: 1.1375rem;
+  padding: 0.6rem 2.25rem;
+  background-color: #f1c984;
 }
