@@ -93,22 +93,58 @@ body {
         .content {
             margin-left: 50%;
             color: #fff;
-
             .title {
                 margin-top: 6.25rem;
                 display: inline-block;
                 text-transform: uppercase;
                 border-bottom: solid 2px rgb(241, 201, 132);
             }
-
             .description {
                 font-size: 0.875rem;
             }
-
             .button {
                 margin: 2rem 0 4rem;
             }
-
+        }
+    }
+    /*.course*/
+    .mission {
+        background: url('./images/section_3_bg.jpg') no-repeat;
+        background-size: 80%;
+        background-position: right;
+        padding: 7rem 0 7.25rem;
+        .content {
+            padding-left: 8rem;
+            width: 50%;
+            .title {
+                font-size: 1.875rem;
+                margin-bottom: 2.75rem;
+                position: relative;
+                .block {
+                    display: inline-block;
+                    position: absolute;
+                    z-index: 1;
+                    left: 0;
+                    width: 84px;
+                    height: 40px;
+                    top: -5px;
+                    background-color: rgb(241, 201, 132);
+                }
+                .text {
+                    position: relative;
+                    z-index: 2;
+                    left: 12px;
+                }
+            }
+            .description {
+                color: rgba(40, 40, 40, 0.749);
+                line-height: 1.5;
+                font-size: 0.875rem;
+                margin-bottom: 2rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
