@@ -5,5 +5,32 @@
 
 body {
   font-size: 16px;
-  font-family: Awery;
+
+  .banner {
+    color: #ffffff;
+    padding: 3rem 6.25rem;
+    background: url("./images/banner.jpg");
+    .navbar {
+      margin: 3rem 0 12rem;
+      height: 3.5rem;
+      background-color: #272727;
+      padding: 0.625rem;
+      box-sizing: border-box;
+      .nav-item {
+        margin: 0 1.25rem;
+        .nav-link {
+          color: rgb(241,201,132);
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+
+  .button {
+    color: #000;
+    font-size: 0.875rem;
+    border-radius: 1.2375rem;
+    padding: 0.8rem 2.25rem;
+    background-color: rgb(241,201,132);
+  }
 }
