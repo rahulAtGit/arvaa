@@ -1,0 +1,9 @@
+@font-face {
+  font-family: awery;
+  src: url(./libraries/Awery.ttf) format("ttf");
+}
+/* line 6, index.scss */
+body {
+  font-size: 16px;
+  font-family: awery;
+}
