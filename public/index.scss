@@ -1,0 +1,207 @@
+@font-face {
+    font-family: awery;
+    src: url(./libraries/Awery.ttf) format("ttf");
+}
+
+body {
+    font-size: 16px;
+    font-family: "Rubik";
+    .cf {
+        display: table;
+        content: "";
+    }
+    .cf:before,
+    .cf:after {
+        clear: both;
+    }
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    .button {
+        color: #000;
+        display: inline-block;
+        font-size: 0.875rem;
+        border-radius: 1.2375rem;
+        padding: 0.6rem 2.25rem;
+        background-color: rgb(241, 201, 132);
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .banner {
+        color: #ffffff;
+        padding: 3rem 6.25rem;
+        background: url("./images/banner.jpg") no-repeat;
+        background-size: cover;
+        .title {
+            text-align: center;
+            font-family: "awery";
+        }
+        .navbar {
+            margin: 3rem 0 12rem;
+            height: 3.5rem;
+            background-color: #272727;
+            padding: 0.625rem;
+            box-sizing: border-box;
+            p {
+                margin: 0;
+                span {
+                    font-size: 0.75rem;
+                    line-height: 1.75rem;
+                    vertical-align: middle;
+                }
+                img {
+                    margin-left: 1.5rem;
+                    padding: 0 0.75rem;
+                }
+            }
+            .nav-item {
+                margin: 0 1.25rem;
+                .nav-link {
+                    color: rgb(241, 201, 132);
+                    font-size: 0.75rem;
+                }
+            }
+        }
+    }
+    .vision {
+        padding: 3.5rem 11rem;
+        font-family: "Rubik";
+        color: rgb(40, 40, 40);
+        line-height: 1.5;
+        text-align: center;
+        background-color: #fff;
+        .title {
+            font-weight: normal;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+        .description {
+            line-height: 1.5;
+            margin-bottom: 3rem;
+        }
+    }
+    /*.vision*/
+    .course {
+        background: url('./images/section_2_bg.jpg') no-repeat;
+        background-size: cover;
+        .content {
+            margin-left: 50%;
+            color: #fff;
+            .title {
+                margin-top: 6.25rem;
+                display: inline-block;
+                text-transform: uppercase;
+                border-bottom: solid 2px rgb(241, 201, 132);
+            }
+            .description {
+                font-size: 0.875rem;
+            }
+            .button {
+                margin: 2rem 0 4rem;
+            }
+        }
+    }
+    /*.course*/
+    .mission {
+        background: url('./images/section_3_bg.jpg') no-repeat;
+        background-size: 80%;
+        background-position: right;
+        padding: 7rem 0 7.25rem;
+        .content {
+            padding-left: 8rem;
+            width: 50%;
+            .title {
+                font-size: 1.875rem;
+                margin-bottom: 2.75rem;
+                position: relative;
+                .block {
+                    display: inline-block;
+                    position: absolute;
+                    z-index: 1;
+                    left: 0;
+                    width: 84px;
+                    height: 40px;
+                    top: -5px;
+                    background-color: rgb(241, 201, 132);
+                }
+                .text {
+                    position: relative;
+                    z-index: 2;
+                    left: 12px;
+                }
+            }
+            .description {
+                color: rgba(40, 40, 40, 0.749);
+                line-height: 1.5;
+                font-size: 0.875rem;
+                margin-bottom: 2rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    /*.mission*/
+    .trainer {
+        background: url('./images/profile_img.jpg') no-repeat;
+        background-size: 30%;
+        background-position: 10% 0;
+        .co-founder {
+            float: left;
+            width: 40%;
+            .content {
+                position: absolute;
+                bottom: 7rem;
+                left: 15rem;
+                .name {
+                  display: inline-block;
+                    background-color: rgb(241, 201, 132);
+                    margin: 0;
+                    padding-left: 0.5rem;
+                    line-height: 2.25rem;
+                    height: 2.25rem;
+                    width: 8rem;
+                }
+                .designation{
+                  display: inline-block;
+                  font-size: 0.875rem;
+                  padding-left: 0.5rem;
+                  line-height: 2.25rem;
+                  height: 2.25rem;
+                  width: 13.5rem;
+                  background-color: white;
+                  box-shadow: 2px 2px 1px 0 rgba(0,0,0,0.5);
+
+                }
+            }
+        }
+        .description {
+            float: right;
+            width: 60%;
+            margin: 9.75rem 0 12.5rem;
+            .item {
+                margin-bottom: 2.25rem;
+                width: 80%;
+                color: rgba(40, 40, 40, 0.749);
+                line-height: 1.5;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        /*.description*/
+    }
+    /*.trainer*/
+}

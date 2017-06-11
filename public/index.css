@@ -1,0 +1,245 @@
+@font-face {
+  font-family: awery;
+  src: url(./libraries/Awery.ttf) format("ttf");
+}
+/* line 6, index.scss */
+body {
+  font-size: 16px;
+  font-family: "Rubik";
+  /*.vision*/
+  /*.course*/
+  /*.mission*/
+  /*.trainer*/
+}
+/* line 9, index.scss */
+body .cf {
+  display: table;
+  content: "";
+}
+/* line 13, index.scss */
+body .cf:before,
+body .cf:after {
+  clear: both;
+}
+/* line 17, index.scss */
+body .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+/* line 21, index.scss */
+body .button {
+  color: #000;
+  display: inline-block;
+  font-size: 0.875rem;
+  border-radius: 1.2375rem;
+  padding: 0.6rem 2.25rem;
+  background-color: #f1c984;
+  text-decoration: none;
+}
+/* line 30, index.scss */
+body h1 {
+  font-size: 3rem;
+}
+/* line 33, index.scss */
+body h2 {
+  font-size: 1.75rem;
+}
+/* line 36, index.scss */
+body h3 {
+  font-size: 1.5rem;
+}
+/* line 39, index.scss */
+body p {
+  font-size: 1rem;
+}
+/* line 42, index.scss */
+body .banner {
+  color: #ffffff;
+  padding: 3rem 6.25rem;
+  background: url("./images/banner.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 47, index.scss */
+body .banner .title {
+  text-align: center;
+  font-family: "awery";
+}
+/* line 51, index.scss */
+body .banner .navbar {
+  margin: 3rem 0 12rem;
+  height: 3.5rem;
+  background-color: #272727;
+  padding: 0.625rem;
+  box-sizing: border-box;
+}
+/* line 57, index.scss */
+body .banner .navbar p {
+  margin: 0;
+}
+/* line 59, index.scss */
+body .banner .navbar p span {
+  font-size: 0.75rem;
+  line-height: 1.75rem;
+  vertical-align: middle;
+}
+/* line 64, index.scss */
+body .banner .navbar p img {
+  margin-left: 1.5rem;
+  padding: 0 0.75rem;
+}
+/* line 69, index.scss */
+body .banner .navbar .nav-item {
+  margin: 0 1.25rem;
+}
+/* line 71, index.scss */
+body .banner .navbar .nav-item .nav-link {
+  color: #f1c984;
+  font-size: 0.75rem;
+}
+/* line 78, index.scss */
+body .vision {
+  padding: 3.5rem 11rem;
+  font-family: "Rubik";
+  color: #282828;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fff;
+}
+/* line 85, index.scss */
+body .vision .title {
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+/* line 90, index.scss */
+body .vision .description {
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+/* line 96, index.scss */
+body .course {
+  background: url("./images/section_2_bg.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 99, index.scss */
+body .course .content {
+  margin-left: 50%;
+  color: #fff;
+}
+/* line 102, index.scss */
+body .course .content .title {
+  margin-top: 6.25rem;
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: solid 2px #f1c984;
+}
+/* line 108, index.scss */
+body .course .content .description {
+  font-size: 0.875rem;
+}
+/* line 111, index.scss */
+body .course .content .button {
+  margin: 2rem 0 4rem;
+}
+/* line 117, index.scss */
+body .mission {
+  background: url("./images/section_3_bg.jpg") no-repeat;
+  background-size: 80%;
+  background-position: right;
+  padding: 7rem 0 7.25rem;
+}
+/* line 122, index.scss */
+body .mission .content {
+  padding-left: 8rem;
+  width: 50%;
+}
+/* line 125, index.scss */
+body .mission .content .title {
+  font-size: 1.875rem;
+  margin-bottom: 2.75rem;
+  position: relative;
+}
+/* line 129, index.scss */
+body .mission .content .title .block {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 84px;
+  height: 40px;
+  top: -5px;
+  background-color: #f1c984;
+}
+/* line 139, index.scss */
+body .mission .content .title .text {
+  position: relative;
+  z-index: 2;
+  left: 12px;
+}
+/* line 145, index.scss */
+body .mission .content .description {
+  color: rgba(40, 40, 40, 0.749);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
+/* line 150, index.scss */
+body .mission .content .description:last-child {
+  margin-bottom: 0;
+}
+/* line 157, index.scss */
+body .trainer {
+  background: url("./images/profile_img.jpg") no-repeat;
+  background-size: 30%;
+  background-position: 10% 0;
+  /*.description*/
+}
+/* line 161, index.scss */
+body .trainer .co-founder {
+  float: left;
+  width: 40%;
+}
+/* line 164, index.scss */
+body .trainer .co-founder .content {
+  position: absolute;
+  bottom: 7rem;
+  left: 15rem;
+}
+/* line 168, index.scss */
+body .trainer .co-founder .content .name {
+  display: inline-block;
+  background-color: #f1c984;
+  margin: 0;
+  padding-left: 0.5rem;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  width: 8rem;
+}
+/* line 177, index.scss */
+body .trainer .co-founder .content .designation {
+  display: inline-block;
+  font-size: 0.875rem;
+  padding-left: 0.5rem;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  width: 13.5rem;
+  background-color: white;
+  box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 190, index.scss */
+body .trainer .description {
+  float: right;
+  width: 60%;
+  margin: 9.75rem 0 12.5rem;
+}
+/* line 194, index.scss */
+body .trainer .description .item {
+  margin-bottom: 2.25rem;
+  width: 80%;
+  color: rgba(40, 40, 40, 0.749);
+  line-height: 1.5;
+}
+/* line 199, index.scss */
+body .trainer .description .item:last-child {
+  margin-bottom: 0;
+}
