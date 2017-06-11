@@ -6,7 +6,14 @@
 body {
     font-size: 16px;
     font-family: "Rubik";
-
+    .cf {
+        display: table;
+        content: "";
+    }
+    .cf:before,
+    .cf:after {
+        clear: both;
+    }
     .container-fluid {
         padding: 0;
         margin: 0;
@@ -85,10 +92,10 @@ body {
             margin-bottom: 3rem;
         }
     }
+    /*.vision*/
     .course {
         background: url('./images/section_2_bg.jpg') no-repeat;
         background-size: cover;
-
         .content {
             margin-left: 50%;
             color: #fff;
@@ -146,4 +153,55 @@ body {
             }
         }
     }
+    /*.mission*/
+    .trainer {
+        background: url('./images/profile_img.jpg') no-repeat;
+        background-size: 30%;
+        background-position: 10% 0;
+        .co-founder {
+            float: left;
+            width: 40%;
+            .content {
+                position: absolute;
+                bottom: 7rem;
+                left: 15rem;
+                .name {
+                  display: inline-block;
+                    background-color: rgb(241, 201, 132);
+                    margin: 0;
+                    padding-left: 0.5rem;
+                    line-height: 2.25rem;
+                    height: 2.25rem;
+                    width: 8rem;
+                }
+                .designation{
+                  display: inline-block;
+                  font-size: 0.875rem;
+                  padding-left: 0.5rem;
+                  line-height: 2.25rem;
+                  height: 2.25rem;
+                  width: 13.5rem;
+                  background-color: white;
+                  box-shadow: 2px 2px 1px 0 rgba(0,0,0,0.5);
+
+                }
+            }
+        }
+        .description {
+            float: right;
+            width: 60%;
+            margin: 9.75rem 0 12.5rem;
+            .item {
+                margin-bottom: 2.25rem;
+                width: 80%;
+                color: rgba(40, 40, 40, 0.749);
+                line-height: 1.5;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        /*.description*/
+    }
+    /*.trainer*/
 }
