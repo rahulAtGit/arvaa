@@ -68,6 +68,10 @@ body {
             }
             .nav-item {
                 margin: 0 1.25rem;
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.6;
+                }
                 .nav-link {
                     color: rgb(241, 201, 132);
                     font-size: 0.75rem;
@@ -158,6 +162,7 @@ body {
         background: url('./images/profile_img.jpg') no-repeat;
         background-size: 30%;
         background-position: 10% 0;
+        position: relative;
         .co-founder {
             float: left;
             width: 40%;
@@ -204,4 +209,38 @@ body {
         /*.description*/
     }
     /*.trainer*/
+    .media {
+        background-color: #f3f4f4;
+        padding: 2rem 8rem 2.5rem;
+        .content {
+            width: 50%;
+            margin: auto;
+            .title {
+                display: inline;
+                border-bottom: solid 2px rgb(241, 201, 132);
+                color: rgba(40, 40, 40, 0.749);
+            }
+            .thumb_nail {
+                margin: 1rem 0;
+                position: relative;
+                .video {
+                    width:100%;
+                }
+                span {
+                    position: absolute;
+                    font-size: 1.5rem;
+                    left: 85%;
+                    bottom: 2%;
+                    color: #ffffff;
+                }
+            }
+            .date {
+                font-size: 1rem;
+            }
+            .video_title {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    /*.media*/
 }
