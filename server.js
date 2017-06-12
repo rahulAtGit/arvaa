@@ -29,7 +29,7 @@ app.post('/send-enquiry',jsonParser, function(req,res){
 });
 
 function setupEmail(data){
-  let transporter = nodemailer.createTransport({
+  var transporter = nodemailer.createTransport({
     service: 'gmail',
     port: 25,
     secure: false,
@@ -42,10 +42,10 @@ function setupEmail(data){
     }
   });
 
-  var html = ` <h1> Firstname: ${data.name} </h1>  <h1> Lastname: ${data.phone} </h1>
+  var html = `<h1> Firstname: ${data.name} </h1>  <h1> Lastname: ${data.phone} </h1>
   <h1> Email: ${data.email} </h1>   <h1> Message: ${data.message} </h1>`
 
-  let mailOptions = {
+  var mailOptions = {
     from: '" sender name " sender address', // sender address
     to: "", // list of receivers
     subject: "Hello ✔", // Subject line
