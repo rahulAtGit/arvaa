@@ -27,6 +27,8 @@ body {
         padding: 0.6rem 2.25rem;
         background-color: rgb(241, 201, 132);
         text-decoration: none;
+        border:none;
+        cursor: pointer;
     }
     h1 {
         font-size: 3rem;
@@ -275,6 +277,12 @@ body {
         .button {
             background-color: #fff;
             color: #000;
+        }
+        .form-success{
+            display: none;
+            text-align: center;
+            color: #333;
+            font-weight: normal;
         }
     }
 

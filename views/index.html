@@ -125,31 +125,35 @@
         </section>
 
         <section class="register" id="register">
-            <h3 class="title">Enquire Now</h3>
-            <form action="" class="registerForm">
-                <div class="row">
-                    <div class="input-field md-form col-md-4">
-                        <input id="name" type="text" class="validate" required>
-                        <label for="name">Enter your name</label>
+            <div class="form-wrapper">
+                <h3 class="title">Enquire Now</h3>
+                <form action="" class="registerForm">
+                    <div class="row">
+                        <div class="input-field md-form col-md-4">
+                            <input id="name" type="text" class="validate" required>
+                            <label for="name">Enter your name</label>
+                        </div>
+                        <div class="input-field md-form col-md-4">
+                            <input id="phone" type="text" class="validate" required>
+                            <label for="phone">Phone</label>
+                        </div>
+                        <div class="input-field md-form col-md-4 ">
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
                     </div>
-                    <div class="input-field md-form col-md-4">
-                        <input id="phone" type="text" class="validate" required>
-                        <label for="phone">Phone</label>
+                    <div class="row">
+                        <div class="md-form input-field col-md-12">
+                            <input id="message" type="text" class="validate">
+                            <label for="message">Your message</label>
+                        </div>
                     </div>
-                    <div class="input-field md-form col-md-4 ">
-                        <input id="email" type="email" class="validate" required>
-                        <label for="email">Email</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="md-form input-field col-md-12">
-                        <input id="message" type="text" class="validate">
-                        <label for="message">Your message</label>
-                    </div>
-                </div>
 
-                <a class="button">Submit Now!</a>
-            </form>
+                    <button class="button submit">Submit Now!</button>
+                </form>
+            </div>
+
+            <h2 class="form-success">Thank you for showing interest. We will get back to you soon!!</h2>
         </section>
 
         <section class="syllabus" id="syllabus">
@@ -187,6 +191,7 @@
 
     <script src="./libraries/jquery-3.1.1.min.js"></script>
     <script src="./libraries/mdb.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

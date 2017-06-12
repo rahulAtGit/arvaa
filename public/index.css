@@ -27,7 +27,7 @@ body .container-fluid {
   padding: 0;
   margin: 0;
 }
-/* line 21, index.scss */
+/* line 22, index.scss */
 body .button {
   color: #000;
   display: inline-block;
@@ -36,36 +36,38 @@ body .button {
   padding: 0.6rem 2.25rem;
   background-color: #f1c984;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
-/* line 30, index.scss */
+/* line 33, index.scss */
 body h1 {
   font-size: 3rem;
 }
-/* line 33, index.scss */
+/* line 36, index.scss */
 body h2 {
   font-size: 1.75rem;
 }
-/* line 36, index.scss */
+/* line 39, index.scss */
 body h3 {
   font-size: 1.5rem;
 }
-/* line 39, index.scss */
+/* line 42, index.scss */
 body p {
   font-size: 1rem;
 }
-/* line 42, index.scss */
+/* line 45, index.scss */
 body .banner {
   color: #ffffff;
   padding: 3rem 6.25rem;
   background: url("./images/banner.jpg") no-repeat;
   background-size: cover;
 }
-/* line 47, index.scss */
+/* line 50, index.scss */
 body .banner .title {
   text-align: center;
   font-family: "awery";
 }
-/* line 51, index.scss */
+/* line 54, index.scss */
 body .banner .navbar {
   margin: 3rem 0 12rem;
   height: 3.5rem;
@@ -73,36 +75,36 @@ body .banner .navbar {
   padding: 0.625rem;
   box-sizing: border-box;
 }
-/* line 57, index.scss */
+/* line 60, index.scss */
 body .banner .navbar p {
   margin: 0;
 }
-/* line 59, index.scss */
+/* line 62, index.scss */
 body .banner .navbar p span {
   font-size: 0.75rem;
   line-height: 1.75rem;
   vertical-align: middle;
 }
-/* line 64, index.scss */
+/* line 67, index.scss */
 body .banner .navbar p img {
   margin-left: 1.5rem;
   padding: 0 0.75rem;
 }
-/* line 69, index.scss */
+/* line 72, index.scss */
 body .banner .navbar .nav-item {
   margin: 0 1.25rem;
   cursor: pointer;
 }
-/* line 72, index.scss */
+/* line 75, index.scss */
 body .banner .navbar .nav-item:hover {
   opacity: 0.6;
 }
-/* line 75, index.scss */
+/* line 78, index.scss */
 body .banner .navbar .nav-item .nav-link {
   color: #f1c984;
   font-size: 0.75rem;
 }
-/* line 82, index.scss */
+/* line 85, index.scss */
 body .vision {
   padding: 3.5rem 11rem;
   font-family: "Rubik";
@@ -111,61 +113,61 @@ body .vision {
   text-align: center;
   background-color: #fff;
 }
-/* line 89, index.scss */
+/* line 92, index.scss */
 body .vision .title {
   font-weight: normal;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
-/* line 94, index.scss */
+/* line 97, index.scss */
 body .vision .description {
   line-height: 1.5;
   margin-bottom: 3rem;
 }
-/* line 100, index.scss */
+/* line 103, index.scss */
 body .course {
   background: url("./images/section_2_bg.jpg") no-repeat;
   background-size: cover;
 }
-/* line 103, index.scss */
+/* line 106, index.scss */
 body .course .content {
   margin-left: 50%;
   color: #fff;
 }
-/* line 106, index.scss */
+/* line 109, index.scss */
 body .course .content .title {
   margin-top: 6.25rem;
   display: inline-block;
   text-transform: uppercase;
   border-bottom: solid 2px #f1c984;
 }
-/* line 112, index.scss */
+/* line 115, index.scss */
 body .course .content .description {
   font-size: 0.875rem;
 }
-/* line 115, index.scss */
+/* line 118, index.scss */
 body .course .content .button {
   margin: 2rem 0 4rem;
 }
-/* line 121, index.scss */
+/* line 124, index.scss */
 body .mission {
   background: url("./images/section_3_bg.jpg") no-repeat;
   background-size: 80%;
   background-position: right;
   padding: 7rem 0 7.25rem;
 }
-/* line 126, index.scss */
+/* line 129, index.scss */
 body .mission .content {
   padding-left: 8rem;
   width: 50%;
 }
-/* line 129, index.scss */
+/* line 132, index.scss */
 body .mission .content .title {
   font-size: 1.875rem;
   margin-bottom: 2.75rem;
   position: relative;
 }
-/* line 133, index.scss */
+/* line 136, index.scss */
 body .mission .content .title .block {
   display: inline-block;
   position: absolute;
@@ -176,24 +178,24 @@ body .mission .content .title .block {
   top: -5px;
   background-color: #f1c984;
 }
-/* line 143, index.scss */
+/* line 146, index.scss */
 body .mission .content .title .text {
   position: relative;
   z-index: 2;
   left: 12px;
 }
-/* line 149, index.scss */
+/* line 152, index.scss */
 body .mission .content .description {
   color: rgba(40, 40, 40, 0.749);
   line-height: 1.5;
   font-size: 0.875rem;
   margin-bottom: 2rem;
 }
-/* line 154, index.scss */
+/* line 157, index.scss */
 body .mission .content .description:last-child {
   margin-bottom: 0;
 }
-/* line 161, index.scss */
+/* line 164, index.scss */
 body .trainer {
   background: url("./images/profile_img.jpg") no-repeat;
   background-size: 30%;
@@ -201,18 +203,18 @@ body .trainer {
   position: relative;
   /*.description*/
 }
-/* line 166, index.scss */
+/* line 169, index.scss */
 body .trainer .co-founder {
   float: left;
   width: 40%;
 }
-/* line 169, index.scss */
+/* line 172, index.scss */
 body .trainer .co-founder .content {
   position: absolute;
   bottom: 7rem;
   left: 15rem;
 }
-/* line 173, index.scss */
+/* line 176, index.scss */
 body .trainer .co-founder .content .name {
   display: inline-block;
   background-color: #f1c984;
@@ -222,7 +224,7 @@ body .trainer .co-founder .content .name {
   height: 2.25rem;
   width: 8rem;
 }
-/* line 182, index.scss */
+/* line 185, index.scss */
 body .trainer .co-founder .content .designation {
   display: inline-block;
   font-size: 0.875rem;
@@ -233,49 +235,49 @@ body .trainer .co-founder .content .designation {
   background-color: white;
   box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.5);
 }
-/* line 194, index.scss */
+/* line 197, index.scss */
 body .trainer .description {
   float: right;
   width: 60%;
   margin: 9.75rem 0 12.5rem;
 }
-/* line 198, index.scss */
+/* line 201, index.scss */
 body .trainer .description .item {
   margin-bottom: 2.25rem;
   width: 80%;
   color: rgba(40, 40, 40, 0.749);
   line-height: 1.5;
 }
-/* line 203, index.scss */
+/* line 206, index.scss */
 body .trainer .description .item:last-child {
   margin-bottom: 0;
 }
-/* line 211, index.scss */
+/* line 214, index.scss */
 body .media {
   background-color: #f3f4f4;
   padding: 2rem 8rem 2.5rem;
 }
-/* line 214, index.scss */
+/* line 217, index.scss */
 body .media .content {
   width: 50%;
   margin: auto;
 }
-/* line 217, index.scss */
+/* line 220, index.scss */
 body .media .content .title {
   display: inline;
   border-bottom: solid 2px #f1c984;
   color: rgba(40, 40, 40, 0.749);
 }
-/* line 222, index.scss */
+/* line 225, index.scss */
 body .media .content .thumb_nail {
   margin: 1rem 0;
   position: relative;
 }
-/* line 225, index.scss */
+/* line 228, index.scss */
 body .media .content .thumb_nail .video {
   width: 100%;
 }
-/* line 228, index.scss */
+/* line 231, index.scss */
 body .media .content .thumb_nail span {
   position: absolute;
   font-size: 1.5rem;
@@ -283,20 +285,20 @@ body .media .content .thumb_nail span {
   bottom: 2%;
   color: #ffffff;
 }
-/* line 236, index.scss */
+/* line 239, index.scss */
 body .media .content .date {
   font-size: 1rem;
 }
-/* line 239, index.scss */
+/* line 242, index.scss */
 body .media .content .video_title {
   font-size: 1.5rem;
 }
-/* line 245, index.scss */
+/* line 248, index.scss */
 body .register {
   padding: 2.5rem 12.5rem 2.125rem;
   background-color: #f1c984;
 }
-/* line 248, index.scss */
+/* line 251, index.scss */
 body .register .title {
   text-transform: uppercase;
   font-weight: 500;
@@ -304,31 +306,62 @@ body .register .title {
   color: #fff;
   font-size: 1.25rem;
 }
-/* line 256, index.scss */
+/* line 259, index.scss */
 body .register .registerForm {
   margin-top: 1rem;
 }
-/* line 259, index.scss */
+/* line 262, index.scss */
 body .register input {
   border-bottom: solid 2px rgba(255, 255, 255, 0.502);
   color: #333;
 }
-/* line 262, index.scss */
+/* line 265, index.scss */
 body .register input:focus {
   border-bottom: solid 2px rgba(255, 255, 255, 0.502) !important;
   box-shadow: none !important;
 }
-/* line 267, index.scss */
+/* line 270, index.scss */
 body .register label {
   left: 1rem;
   color: #515151;
 }
-/* line 270, index.scss */
+/* line 273, index.scss */
 body .register label.active {
   color: #515151 !important;
 }
-/* line 274, index.scss */
+/* line 277, index.scss */
 body .register .button {
   background-color: #fff;
   color: #000;
+}
+/* line 281, index.scss */
+body .register .form-success {
+  display: none;
+  text-align: center;
+  color: #333;
+  font-weight: normal;
+}
+/* line 289, index.scss */
+body .syllabus {
+  padding: 3rem;
+}
+/* line 291, index.scss */
+body .syllabus .content {
+  margin: auto;
+  width: 60rem;
+}
+/* line 294, index.scss */
+body .syllabus .content .lesson {
+  display: inline-block;
+  width: 15rem;
+  background-color: #6b8a99;
+  margin: 1rem 2rem;
+}
+/* line 299, index.scss */
+body .syllabus .content .lesson img {
+  max-width: 100%;
+}
+/* line 302, index.scss */
+body .syllabus .content .lesson p {
+  margin: 0.5rem;
 }

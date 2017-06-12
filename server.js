@@ -25,7 +25,7 @@ app.get('/syllabus',function(req,res){
 
 app.post('/send-enquiry',jsonParser, function(req,res){
   setupEmail(req.body);
-  res.send('Thank you!!');
+  res.status(200).json({message: 'Thank you'});
 });
 
 function setupEmail(data){
@@ -34,22 +34,29 @@ function setupEmail(data){
     port: 25,
     secure: false,
     auth: {
-      user: "",//sender email goes here
-      pass: "", //sender password goes here
+      user: "freelance.sachin1245@gmail.com",//sender email goes here
+      pass: "stealthmode", //sender password goes here
     },
     tls: {
       rejectUnauthorized: false
     }
   });
 
-  var html = `<h1> Firstname: ${data.name} </h1>  <h1> Lastname: ${data.phone} </h1>
-  <h1> Email: ${data.email} </h1>   <h1> Message: ${data.message} </h1>`
+  var html = `<div class="container" style="display:flex;flex-direction:column;justify-content:center;align-items:center;color:white;">
+    <div class="wrapper" style="display:inline-block;background-color:#f1c984;color:#333;padding:20px;">
+        <h1> Name: <span style="font-size: 20px;font-weight:normal;">${data.name}</span></h1>
+        <h1> Phone: <span style="font-size: 20px;font-weight:normal;">${data.phone} </span></h1>
+        <h1> Email: <span style="font-size: 20px;font-weight:normal;">${data.email} </span></h1>
+        <h1> Message: <span style="font-size: 20px;font-weight:normal;">${data.message}</span></h1>
+    </div>
+</div>`
+
 
   var mailOptions = {
-    from: '" sender name " sender address', // sender address
-    to: "", // list of receivers
-    subject: "Hello ✔", // Subject line
-    text: 'Hello', // plain text body
+    from: '"Sachin C" freelance.sachin1245@gmail.com', // sender address
+    to: "sachinwh@gmail.com", // list of receivers
+    subject: "Enquiry Data ✔", // Subject line
+    text: 'Enquiry Data', // plain text body
     html: html// html body
   };
 
