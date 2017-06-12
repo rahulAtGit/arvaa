@@ -290,14 +290,16 @@ body {
         padding: 3rem;
         .content {
             margin: auto;
-            width: 60rem;
+            width: 72rem;
             .lesson {
-                display: inline-block;
-                width: 15rem;
-                background-color: #6b8a99;
+                display: inline-block; 
+                width: 19.8rem;
+                //height: 15rem;
+                background-color: rgb(222,222,222);
                 margin: 1rem 2rem;
                 img {
-                    max-width: 100%;
+                    width: 100%;
+                    height: 13.6875rem;
                 }
                 p {
                     margin: 0.5rem;
