@@ -17,6 +17,7 @@ body {
     .container-fluid {
         padding: 0;
         margin: 0;
+
     }
     .button {
         color: #000;
@@ -274,6 +275,26 @@ body {
         .button {
             background-color: #fff;
             color: #000;
+        }
+    }
+
+    .syllabus {
+        padding: 3rem;
+        .content {
+            margin: auto;
+            width: 60rem;
+            .lesson {
+                display: inline-block;
+                width: 15rem;
+                background-color: #6b8a99;
+                margin: 1rem 2rem;
+                img {
+                    max-width: 100%;
+                }
+                p {
+                    margin: 0.5rem;
+                }
+            }
         }
     }
 }
