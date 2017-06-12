@@ -10,6 +10,7 @@ body {
   /*.course*/
   /*.mission*/
   /*.trainer*/
+  /*.media*/
 }
 /* line 9, index.scss */
 body .cf {
@@ -90,13 +91,18 @@ body .banner .navbar p img {
 /* line 69, index.scss */
 body .banner .navbar .nav-item {
   margin: 0 1.25rem;
+  cursor: pointer;
 }
-/* line 71, index.scss */
+/* line 72, index.scss */
+body .banner .navbar .nav-item:hover {
+  opacity: 0.6;
+}
+/* line 75, index.scss */
 body .banner .navbar .nav-item .nav-link {
   color: #f1c984;
   font-size: 0.75rem;
 }
-/* line 78, index.scss */
+/* line 82, index.scss */
 body .vision {
   padding: 3.5rem 11rem;
   font-family: "Rubik";
@@ -105,61 +111,61 @@ body .vision {
   text-align: center;
   background-color: #fff;
 }
-/* line 85, index.scss */
+/* line 89, index.scss */
 body .vision .title {
   font-weight: normal;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
-/* line 90, index.scss */
+/* line 94, index.scss */
 body .vision .description {
   line-height: 1.5;
   margin-bottom: 3rem;
 }
-/* line 96, index.scss */
+/* line 100, index.scss */
 body .course {
   background: url("./images/section_2_bg.jpg") no-repeat;
   background-size: cover;
 }
-/* line 99, index.scss */
+/* line 103, index.scss */
 body .course .content {
   margin-left: 50%;
   color: #fff;
 }
-/* line 102, index.scss */
+/* line 106, index.scss */
 body .course .content .title {
   margin-top: 6.25rem;
   display: inline-block;
   text-transform: uppercase;
   border-bottom: solid 2px #f1c984;
 }
-/* line 108, index.scss */
+/* line 112, index.scss */
 body .course .content .description {
   font-size: 0.875rem;
 }
-/* line 111, index.scss */
+/* line 115, index.scss */
 body .course .content .button {
   margin: 2rem 0 4rem;
 }
-/* line 117, index.scss */
+/* line 121, index.scss */
 body .mission {
   background: url("./images/section_3_bg.jpg") no-repeat;
   background-size: 80%;
   background-position: right;
   padding: 7rem 0 7.25rem;
 }
-/* line 122, index.scss */
+/* line 126, index.scss */
 body .mission .content {
   padding-left: 8rem;
   width: 50%;
 }
-/* line 125, index.scss */
+/* line 129, index.scss */
 body .mission .content .title {
   font-size: 1.875rem;
   margin-bottom: 2.75rem;
   position: relative;
 }
-/* line 129, index.scss */
+/* line 133, index.scss */
 body .mission .content .title .block {
   display: inline-block;
   position: absolute;
@@ -170,42 +176,43 @@ body .mission .content .title .block {
   top: -5px;
   background-color: #f1c984;
 }
-/* line 139, index.scss */
+/* line 143, index.scss */
 body .mission .content .title .text {
   position: relative;
   z-index: 2;
   left: 12px;
 }
-/* line 145, index.scss */
+/* line 149, index.scss */
 body .mission .content .description {
   color: rgba(40, 40, 40, 0.749);
   line-height: 1.5;
   font-size: 0.875rem;
   margin-bottom: 2rem;
 }
-/* line 150, index.scss */
+/* line 154, index.scss */
 body .mission .content .description:last-child {
   margin-bottom: 0;
 }
-/* line 157, index.scss */
+/* line 161, index.scss */
 body .trainer {
   background: url("./images/profile_img.jpg") no-repeat;
   background-size: 30%;
   background-position: 10% 0;
+  position: relative;
   /*.description*/
 }
-/* line 161, index.scss */
+/* line 166, index.scss */
 body .trainer .co-founder {
   float: left;
   width: 40%;
 }
-/* line 164, index.scss */
+/* line 169, index.scss */
 body .trainer .co-founder .content {
   position: absolute;
   bottom: 7rem;
   left: 15rem;
 }
-/* line 168, index.scss */
+/* line 173, index.scss */
 body .trainer .co-founder .content .name {
   display: inline-block;
   background-color: #f1c984;
@@ -215,7 +222,7 @@ body .trainer .co-founder .content .name {
   height: 2.25rem;
   width: 8rem;
 }
-/* line 177, index.scss */
+/* line 182, index.scss */
 body .trainer .co-founder .content .designation {
   display: inline-block;
   font-size: 0.875rem;
@@ -226,20 +233,102 @@ body .trainer .co-founder .content .designation {
   background-color: white;
   box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.5);
 }
-/* line 190, index.scss */
+/* line 194, index.scss */
 body .trainer .description {
   float: right;
   width: 60%;
   margin: 9.75rem 0 12.5rem;
 }
-/* line 194, index.scss */
+/* line 198, index.scss */
 body .trainer .description .item {
   margin-bottom: 2.25rem;
   width: 80%;
   color: rgba(40, 40, 40, 0.749);
   line-height: 1.5;
 }
-/* line 199, index.scss */
+/* line 203, index.scss */
 body .trainer .description .item:last-child {
   margin-bottom: 0;
+}
+/* line 211, index.scss */
+body .media {
+  background-color: #f3f4f4;
+  padding: 2rem 8rem 2.5rem;
+}
+/* line 214, index.scss */
+body .media .content {
+  width: 50%;
+  margin: auto;
+}
+/* line 217, index.scss */
+body .media .content .title {
+  display: inline;
+  border-bottom: solid 2px #f1c984;
+  color: rgba(40, 40, 40, 0.749);
+}
+/* line 222, index.scss */
+body .media .content .thumb_nail {
+  margin: 1rem 0;
+  position: relative;
+}
+/* line 225, index.scss */
+body .media .content .thumb_nail .video {
+  width: 100%;
+}
+/* line 228, index.scss */
+body .media .content .thumb_nail span {
+  position: absolute;
+  font-size: 1.5rem;
+  left: 85%;
+  bottom: 2%;
+  color: #ffffff;
+}
+/* line 236, index.scss */
+body .media .content .date {
+  font-size: 1rem;
+}
+/* line 239, index.scss */
+body .media .content .video_title {
+  font-size: 1.5rem;
+}
+/* line 245, index.scss */
+body .register {
+  padding: 2.5rem 12.5rem 2.125rem;
+  background-color: #f1c984;
+}
+/* line 248, index.scss */
+body .register .title {
+  text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 1.25rem;
+}
+/* line 256, index.scss */
+body .register .registerForm {
+  margin-top: 1rem;
+}
+/* line 259, index.scss */
+body .register input {
+  border-bottom: solid 2px rgba(255, 255, 255, 0.502);
+  color: #333;
+}
+/* line 262, index.scss */
+body .register input:focus {
+  border-bottom: solid 2px rgba(255, 255, 255, 0.502) !important;
+  box-shadow: none !important;
+}
+/* line 267, index.scss */
+body .register label {
+  left: 1rem;
+  color: #515151;
+}
+/* line 270, index.scss */
+body .register label.active {
+  color: #515151 !important;
+}
+/* line 274, index.scss */
+body .register .button {
+  background-color: #fff;
+  color: #000;
 }
