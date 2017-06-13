@@ -42,6 +42,10 @@ body {
     p {
         font-size: 1rem;
     }
+    .float-right {
+        position: absolute;
+        right: 3rem;
+    }
     .banner {
         color: #ffffff;
         padding: 3rem 6.25rem;
@@ -80,6 +84,9 @@ body {
                     font-size: 0.75rem;
                 }
             }
+        }
+        .less_margin {
+            margin: 3rem 0 4rem;
         }
     }
     .vision {
@@ -292,7 +299,7 @@ body {
             margin: auto;
             width: 72rem;
             .lesson {
-                display: inline-block; 
+                display: inline-block;
                 width: 19.8rem;
                 //height: 15rem;
                 background-color: rgb(222,222,222);
